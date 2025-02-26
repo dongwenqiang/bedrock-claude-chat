@@ -114,6 +114,12 @@ const useModel = (botId?: string | null, activeModels?: ActiveModels) => {
             supportMediaType: CLAUDE_SUPPORTED_MEDIA_TYPES,
           },
           {
+            modelId: 'claude-v3.7-sonnet-think',
+            label: t('model.claude-v3.7-sonnet-think.label'),
+            description: t('model.claude-v3.7-sonnet-think.description'),
+            supportMediaType: CLAUDE_SUPPORTED_MEDIA_TYPES,
+          },
+          {
             modelId: 'claude-v3-opus',
             label: t('model.claude-v3-opus.label'),
             description: t('model.claude-v3-opus.description'),

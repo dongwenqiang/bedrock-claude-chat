@@ -40,6 +40,11 @@ const translation = {
         description:
           'Hybrid reasoning model balancing quick responses and deep analytical capabilities.',
       },
+      'claude-v3.7-sonnet-think': {
+        label: 'Claude 3.7 Sonnet Think',
+        description:
+            'Hybrid reasoning model balancing quick responses and deep analytical capabilities.',
+      },
       'claude-v3.5-haiku': {
         label: 'Claude 3.5 (Haiku) v1',
         description:

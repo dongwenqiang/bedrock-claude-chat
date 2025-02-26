@@ -107,6 +107,7 @@ export const AVAILABLE_MODEL_KEYS = [
   'claude-v3.5-sonnet',
   'claude-v3.5-sonnet-v2',
   'claude-v3.7-sonnet',
+  'claude-v3.7-sonnet-think',
   'claude-v3-haiku',
   'claude-v3.5-haiku',
   'mistral-7b-instruct',
