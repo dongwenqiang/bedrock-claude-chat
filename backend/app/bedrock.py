@@ -188,6 +188,19 @@ def compose_args_for_converse_api(
                 else DEFAULT_GENERATION_CONFIG["top_k"]
             )
         }
+        if type_model_name == 'claude-v3.7-sonnet-think':
+            additional_model_request_fields = {
+                "top_k": (
+                    generation_params.top_k
+                    if generation_params
+                    else DEFAULT_GENERATION_CONFIG["top_k"]
+                ),
+                "anthropic_beta": ["output-128k-2025-02-19"],
+                "thinking": {
+                    "type": "enabled",
+                    "budget_tokens": 4000
+                }
+            }
         system_prompts = [
             {
                 "text": instruction,
