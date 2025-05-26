@@ -120,6 +120,18 @@ const useModel = (botId?: string | null, activeModels?: ActiveModels) => {
             supportMediaType: CLAUDE_SUPPORTED_MEDIA_TYPES,
           },
           {
+            modelId: 'claude-v4-sonnet',
+            label: t('model.claude-v4-sonnet.label'),
+            description: t('model.claude-v4-sonnet.description'),
+            supportMediaType: CLAUDE_SUPPORTED_MEDIA_TYPES,
+          },
+          {
+            modelId: 'claude-v4-opus',
+            label: t('model.claude-v4-opus.label'),
+            description: t('model.claude-v4-opus.description'),
+            supportMediaType: CLAUDE_SUPPORTED_MEDIA_TYPES,
+          },
+          {
             modelId: 'claude-v3-opus',
             label: t('model.claude-v3-opus.label'),
             description: t('model.claude-v3-opus.description'),
